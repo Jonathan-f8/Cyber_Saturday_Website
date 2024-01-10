@@ -1,6 +1,1 @@
-Thanks for downloading this template!
-
-Template Name: MyBiz
-Template URL: https://bootstrapmade.com/mybiz-free-business-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+A Website Made to be used at Misi Techs Cyber Saturday Event, to teach kids about phishing.
