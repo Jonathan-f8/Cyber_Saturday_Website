@@ -887,9 +887,6 @@ section {
   padding-bottom: 0;
 }
 
-.store .store-wrap:hover img {
-  transform: scale(1.1);
-}
 
 /*--------------------------------------------------------------
 # store Details
@@ -954,6 +951,12 @@ section {
 
 .store-details .store-description p {
   padding: 0;
+}
+
+.store-button {
+  background-color: #0187a4;
+  height: 50px;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -1098,7 +1101,7 @@ section {
 .testimonials .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
-  margin: 10px 0 5px 0;
+  margin: 30px 0 0 0;
   color: #fff;
 }
 
