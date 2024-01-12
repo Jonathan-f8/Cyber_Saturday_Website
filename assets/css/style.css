@@ -9,6 +9,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'robo';
+  src: url('/fonts/robo.ttf');
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -138,6 +144,7 @@ h6 {
 }
 
 #header .logo h1 {
+  font-family: robo;
   font-size: 28px;
   margin: 0;
   line-height: 1;
