@@ -978,17 +978,20 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 10px;
-  width: 600px; /* Set the width */
+  width: auto; /* Set the width */
   height: 350px; /* Set the height */
 }
 
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
+  width: 400px;
   border-radius: 50%;
 }
 
 .team .member .pic img {
+  width: 100%; /* Set the width */
+  height: 100%; /* Set the height */
+  object-fit: cover; /* New property */
   transition: ease-in-out 0.3s;
 }
 
@@ -1499,4 +1502,126 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Mobile app Reviews
+--------------------------------------------------------------*/
+
+# Reviews
+--------------------------------------------------------------*/
+.reviews {
+  padding: 80px 0;
+  background: #f5f5f5; /* You can change this to any color you want */
+  position: relative;
+}
+
+.reviews::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(8, 10, 11, 0.7);
+}
+
+.reviews .section-header {
+  margin-bottom: 40px;
+}
+
+.reviews .reviews-carousel,
+.reviews .reviews-slider {
+  overflow: hidden;
+}
+
+.reviews .review-item {
+  text-align: center;
+  color: #333;
+  border: 10px solid black; /* Add this line */
+  padding: 20px; /* Add this line */
+  margin: 20px; /* Add this line */
+}
+
+.reviews .review-item .review-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
+
+.reviews .review-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0 0 0;
+  color: #333; /* You can change this to any color you want */
+}
+
+.reviews .review-item h4 {
+  font-size: 14px;
+  color: #999; /* You can change this to any color you want */
+  margin: 0 0 15px 0;
+}
+
+.reviews .review-item .quote-icon-left,
+.reviews .review-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 26px;
+}
+
+.reviews .review-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.reviews .review-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.reviews .review-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #666; /* You can change this to any color you want */
+}
+
+.reviews .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.reviews .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.reviews .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #01b1d7;
+}
+
+@media (min-width: 1024px) {
+  .reviews {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 992px) {
+  .reviews .review-item p {
+    width: 80%;
+  }
+}
+
+.mobile-app-image {
+  width: 100px;
+  height: 100px;
+  background-color: #f00; /* Replace with the color or image you want */
+  border-radius: 27%; /* Adjust this value to get the roundness you want */
+}
+.checked {
+  color: orange;
 }

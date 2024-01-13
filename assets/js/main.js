@@ -244,6 +244,17 @@
     }
   });
 
+  new Swiper('.reviews-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    spaceBetween: 20,
+  });
+
   /**
    * Initiate Pure Counter 
    */
