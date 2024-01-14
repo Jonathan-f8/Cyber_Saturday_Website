@@ -1625,3 +1625,70 @@ section {
 .checked {
   color: orange;
 }
+
+/* CSS */
+.job-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.job-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  width: 45%;
+}
+
+.apply-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+.job-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* rest of your styles */
+}
+
+.job-content {
+  flex-grow: 1;
+}
+
+.job-title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+}
+
+.careers-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.careers-button-container {
+  display: flex;
+  justify-content: center;
+}
