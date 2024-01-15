@@ -1,4 +1,5 @@
+#!/usr/bin/env -S docker build . --tag=cyber-saturday:v1 --file
 FROM nginx:alpine
 COPY . /usr/share/nginx/html
-#docker build -t html-server-image:v1 .
-#docker run -d -p 8080:80 html-server-image:v1
+EXPOSE 80
+#docker run -d -p 80:80 cyber-saturday:v1
