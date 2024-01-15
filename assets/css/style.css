@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 @font-face {
   font-family: 'robo';
-  src: url('/fonts/robo.ttf');
+  src: url(/robo.woff) format('woff');
 }
 
 
